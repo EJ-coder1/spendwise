@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E2420"/>
+      <stop offset="100%" style="stop-color:#0F1410"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3DCC78"/>
+      <stop offset="100%" style="stop-color:#1E9E54"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5DF0A0"/>
+      <stop offset="100%" style="stop-color:#3DCC78"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" ry="112" fill="url(#bg)"/>
+  <ellipse cx="256" cy="170" rx="220" ry="160" fill="#3DCC78" opacity="0.07"/>
+  <ellipse cx="380" cy="380" rx="180" ry="140" fill="#7C3AED" opacity="0.05"/>
+  <circle cx="256" cy="256" r="168" fill="#1A2018" opacity="0.75"/>
+  <circle cx="256" cy="256" r="176" fill="none" stroke="#3DCC78" stroke-width="4" opacity="0.16"/>
+  <path d="M 210 182 Q 210 152 244 152 Q 300 152 300 188 Q 300 224 256 234 Q 212 244 212 280 Q 212 322 258 322 Q 304 322 304 290"
+        fill="none" stroke="url(#green)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="164,320 208,272 244,296 298,236 348,192"
+            fill="none" stroke="url(#accent)" stroke-width="9"
+            stroke-linecap="round" stroke-linejoin="round" opacity="0.88"/>
+  <polygon points="348,192 326,184 332,206" fill="#5DF0A0" opacity="0.88"/>
+  <circle cx="208" cy="272" r="6" fill="#5DF0A0" opacity="0.85"/>
+  <circle cx="244" cy="296" r="6" fill="#5DF0A0" opacity="0.85"/>
+  <circle cx="298" cy="236" r="6" fill="#5DF0A0" opacity="0.85"/>
+  <line x1="220" y1="188" x2="292" y2="188" stroke="#3DCC78" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+  <line x1="213" y1="208" x2="300" y2="208" stroke="#3DCC78" stroke-width="6" stroke-linecap="round" opacity="0.3"/>
+</svg>
